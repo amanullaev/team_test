@@ -7,7 +7,7 @@ class GymSerializers(serializers.ModelSerializer):
     class Meta:
         model = GymModel
         fields = ('name', 'address', 'phone', 'email', 'open_time','''coach''')
-        
+
 
 
 
